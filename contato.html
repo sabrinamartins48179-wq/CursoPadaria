@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+    <header>
+<h1>Dúvidas, reclamações ou sugestões? Entre em contato conosco!</h1> 
+
+<nav>
+<a href="index.html">Início 🏠</a>   
+</nav>
+
+    </header>
+
+
+<body>
+
+<br><br>
+
+<form action="/fale-conosco" meyhod="post"> 
+
+<fieldset> 
+<legend>Seus Dados</legend> 
+
+<label for="nome">Nome:</label> 
+<input type="text" autocomplete=”nome” id="nome" name="nome" placeholder="Seu nome completo" riquered><br><br>
+
+<label for="email">E-mail:</label> 
+<input type="email" autocomplete=”email” id="email" name="email" placeholder=seuemail@gmail.com riquered><br><br>
+
+</fieldset> 
+
+<br> 
+
+ 
+<fieldset> 
+<legend>Sobre o que quer falar?</legend> 
+
+<label for="assunto">Assunto:</label><br>
+<select id=”assunto” name=”assunto”>
+ <option value=””>-- Escolha --</option> 
+ <option value=”duvida”>Dúvida ❓</option> 
+ <option value=”reclamacao”>Reclamação ⚠️</option> 
+ <option value=”sugestao”>Sugestão 💡</option> 
+</select><br><br>
+
+<label for="mensagem">Mensagem:</label><br>
+<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea><br><br>
+
+</fieldset> 
+
+<br> 
+
+<input type="checkbox" id="recebercopia" name="recebercopia" value=”sim”> 
+<label for="recebercopia">Receber cópia desse formulário?</label> 
+
+<br><br>
+
+<input type="submit" value="Enviar"> 
+<input type="reset" value="Limpar formulário"> 
+
+</body>
+</html>
+
