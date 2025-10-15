@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <title>Pedido</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pedido</title>
 </head>
 
     <header>
@@ -12,7 +12,13 @@
 <p>Todo pedido é uma missão rank A para nossa equipe, mas um aniversario É RANK SS!!</p>
 
 <nav>
-<a href="index.html">Início 🏠</a>   
+<ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="contato.html">Fale Conosco</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+    <li><a href="cadastro.html">Faça seu cadastro</a></li>
+</ul>
+
 </nav>
 
     </header>
@@ -24,7 +30,7 @@
 <form action="/faça-seu-pedido"  meyhod="post">
 
 <fieldset>
-<legend>Cliente</legend>
+<legend><h2>Cliente</h2></legend>
 
 <label for="nome">Nome:</label> 
 <input type="text" autocomplete=”nome” id="nome" name="nome" placeholder="Seu nome" riquered><br><br>
@@ -40,7 +46,7 @@
 <br><br>
 
 <fieldset>
-<legend>Opções</legend>
+<legend><h2>Opções</h2></legend>
 <h3>Selecione os itens do buffet!</h3>
 
 <label for="bolo">Bolos 🍰</label> 
@@ -85,39 +91,42 @@
 <br><br>
 
 <fieldset>
-    <legend>Festa</legend>
+    <legend><h2>Festa</h2></legend>
 
-<p>Tamanho da festa</p>
-<input type="radio" id="pequeno" name="pequeno" value="pequeno">
+<p><b>Tamanho da festa</b></p>
+<input type="radio" id="pequeno" name="tamanho" value="pequeno">
 <label for="pequeno">Pequena (20max)</label>
-<input type="radio" id="medio" name="medio" value="medio">
+<input type="radio" id="medio" name="tamanho" value="medio">
 <label for="medio">Médio (70max)</label>
-<input type="radio" id="grande" name="grande" value="grande">
+<input type="radio" id="grande" name="tamanho" value="grande">
 <label for="grande">Grande (150max)</label>
 
 <br><br><br>
 
 
-<p>Orçamento (minimo 50$)</p>
+<p><b>Orçamento (minimo 50$)</b></p>
 <label for="orcamento">Valor:</label>
 <input type="number" id="orcamento" name="orcamento" min="50" step="5">
 
 <br><br><br>
 
-<p>Quando vai ser a festa?</p>
+<p><b>Quando vai ser a festa?</b></p>
+
 <label for="datafesta">Data da Festa:</label>
-<input type="date" id="datafesta" name="datafesta">
+<input type="date" id="datafesta" name="datafesta" required>
 
 <br><br><br><br>
 
-<label for="oberservacao">Observações especiais</label><br><br>
+<label for="oberservacao"><b>Observações especiais</b></label><br><br>
 <textarea id="mensagem" name="observacao" rows=”5” cols=”30” placeholder="Algum pedido mais especifico?"></textarea>
 </fieldset>
 
-<br><br><br>
+<br><br>
 
 <input type="checkbox" id="recebercopia" name="recebercopia" value=”sim”> 
 <label for="recebercopia">Receber cópia desse formulário?</label> 
+
+<br><br>
 
 <input type="submit" value="Confirmar pedido"> 
 <input type="reset" value="Limpar formulário"> 
