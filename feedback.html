@@ -10,41 +10,48 @@
     <header>
 <h1>O seu feedback nos ajuda a melhorar! Envie sua opinião!</h1> 
 
+<!-- Barra de navegação -->
 <nav>
-<ul>
-    <li><a href="index.html">Início</a></li>
+  <ul>    
+    <li><a href="index.html">Início</a></li>   
     <li><a href="contato.html">Fale Conosco</a></li>
     <li><a href="pedidos.html">Faça seu pedido</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
     <li><a href="cadastro.html">Faça seu cadastro</a></li>
-</ul>
+  </ul>
 </nav>
 
     </header>
 
-
+<!-- Começo do corpo -->
 <body>
 
 <br><br>
 
 <form action="/fale-conosco" meyhod="post"> 
 
+<!-- Formulário de infos do cliente -->    
 <fieldset> 
 <legend><h2>Cliente (opcional)</h2></legend>
 
-<label for="nome">Nome:</label> 
-<input type="text" autocomplete=”nome” id="nome" name="nome" placeholder="Seu nome completo"><br><br>
+  <label for="nome">Nome:</label> 
+  <input type="text" autocomplete=”nome” id="nome" name="nome" placeholder="Seu nome completo">
+  
+  <br><br>
 
-<label for="email">E-mail:</label> 
-<input type="email" autocomplete=”email” id="email" name="email" placeholder="seuemail@gmail.com"><br><br>
-
+  <label for="email">E-mail:</label> 
+  <input type="email" autocomplete=”email” id="email" name="email" placeholder="seuemail@gmail.com">
+  
+  <br><br>
 </fieldset> 
 
 <br> 
 
- 
+<!-- Formulário de avaliações -->
 <fieldset> 
 <legend><h2>Avaliação</h2></legend>
 
+<!-- Avaliações do cardápio -->
 <label for="tipo"><b>Itens do Cardápio:</b></label><br>
 <select id="tipo" name=”tipo” required>
  <option value=””>-- Escolha --</option> 
@@ -76,10 +83,12 @@
 
 <br><br>
 
-
 <label for="mensagem">Observação:</label><br>
-<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea><br><br><br>
+<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea>
 
+<br><br><br>
+
+<!-- Avaliações do atendimento -->
 <p><b>Atendimento</b></p>
 
 <input type="radio" id="uma" name="nota" value="uma" required>
@@ -100,8 +109,11 @@
 <br><br>
 
 <label for="mensagem">Observação:</label><br>
-<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea><br><br><br>
+<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea>
 
+<br><br><br>
+
+<!-- Avaliações do ambiente -->
 <p><b>Ambiente</b></p>
 
 <input type="radio" id="uma" name="nota" value="uma" required>
@@ -122,16 +134,20 @@
 <br><br>
 
 <label for="mensagem">Observação:</label><br>
-<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea><br><br>
+<textarea id="mensagem" name="mensagem" rows=”5” cols=”30” placeholder="escreva sua mensagem aqui" riquered></textarea>
+
+<br><br>
 </fieldset> 
 
 <br> 
 
+<!-- Área de checkbox fora do campo -->
 <input type="checkbox" id="recebercopia" name="recebercopia" value=”sim”> 
 <label for="recebercopia">Receber cópia desse formulário?</label> 
 
 <br><br>
 
+<!-- Botões de envio e delete de formulário -->
 <input type="submit" value="Enviar"> 
 <input type="reset" value="Limpar formulário"> 
 
