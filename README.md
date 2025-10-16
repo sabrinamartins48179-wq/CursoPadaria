@@ -14,7 +14,7 @@ O projeto está começando a criar forma.
 
 15/10/2025 (3.0)
 Foram adicionados 4 html com o propósito de criar formulários para os usuários, que são: contato, pedidos, feedback e cadastro.
-Apesar de ainda não estar em uso, o arquivo style.css também foi criado.
+O arquivo style.css foi criado e já está em uso para deixar a barra de nav na horizontal.
 Algumas atualizações na interface:
 •Adição do link para vincular o css em head
 •O footer está mais completo, contendo agora o endereço que antes ficava em head deixando o cabeçalho mais limpo.
