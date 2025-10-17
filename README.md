@@ -1,4 +1,4 @@
-05/10/2025
+05/10/2025 (1.0)
 Neste projeto foi criado um HTML seguindo uma estrutura e usando tags básicas para o desenvolvimento do "Projeto Padaria". Aqui a ideia foi usar referências bem diretas a obra "Naruto" de Masashi Kishimoto. E para fins de organização, a pasta imahens que guarda os arquivos que foram usados para a criação.
 
 Após usar SHIFT + ! para a criação de um modelo padrão de estrutura, a primeira modificação a ser notada foi a adição do conjunto que formou o elemento "<meta name="keywords" content=" como um recurso SEO, visando fortalecer o motores de busca.
@@ -7,7 +7,14 @@ Ao descemos para o "body" já é visível um comentário (usando o atalho SHIFT+
 
 Por último, o uso do rodapé/footer que ficou com a função de mostrar um e-mail para contato.
 
-09/10/2025
+09/10/2025 (2.0)
 
 Novos elementos foram adicionados, como a inserção de um video usando a tag "video src". A estrura como um todo tambem está evoluindo, as pastas estão mais organizadas e os arquivos possuem nomes mais simples para consulta futura.
 O projeto está começando a criar forma.
+
+15/10/2025 (3.0)
+Foram adicionados 4 html com o propósito de criar formulários para os usuários, que são: contato, pedidos, feedback e cadastro.
+O arquivo style.css foi criado e já está em uso para deixar a barra de nav na horizontal.
+Algumas atualizações na interface:
+•Adição do link para vincular o css em head
+•O footer está mais completo, contendo agora o endereço que antes ficava em head deixando o cabeçalho mais limpo.
