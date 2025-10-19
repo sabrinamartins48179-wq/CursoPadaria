@@ -3,8 +3,30 @@
     src: url('./fonts/ramenichikaru.otf') format('truetype');
 }
 
+header {
+padding: 10px 0;
+background-color: #fde5a4;
+background-image: url(imagens2/pergaminho.webp);
+text-align: center;
+}
+
+.logoprincipal img {
+display: block;
+margin: 0 auto;    
+width: 100%;
+max-width: 20px;
+height: auto;
+}
+hr {
+border: none;
+width: 100%;
+height: 45px;
+background-color: #a80000;  
+}
+
 body {
 font-family: 'ramenichikaru', sans-serif;
+background-color: #f5f5cd;
 }
 
 
