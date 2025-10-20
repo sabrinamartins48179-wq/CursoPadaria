@@ -104,7 +104,6 @@ padding-left: 22px;
 table, th, td {
 border: 1px solid;
 border-collapse: collapse;
-padding: 15px;
 margin-bottom: 103px;
 text-align: center;
 }
@@ -114,22 +113,27 @@ width: 65%;
 }
 
 th {
-height: 40px;
+height: 30px;
 background-image: url(imagens2/tabelas/tabelasfundotr.jpg);
-color: rgb(255, 150, 150);
-text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+color:  #bf2626;
+text-shadow: 1px 1px 2px rgb(238, 255, 0), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
 letter-spacing: 2px;
+padding: 15px;
 }
 
 td {
 height: 40px;
-background-image: url(imagens2/tabelas/fundotabelatd.jpg);
-color: rgb(0, 0, 0);
-text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+background-color: #f2b138;
+color:  #bf2626;
 letter-spacing: 2px;
 }
 
-tr:hover{background-color: rgb(255, 170, 72);}
+td:hover{background-color: rgb(255, 170, 72);}
+
+.videotexto {
+text-align: left;    
+padding-right: 670px;
+}
 
 fieldset {
 background-image: url(imagens2/campos/img4.jpg);    
@@ -139,4 +143,28 @@ background-color: rgb(255, 184, 134);
 footer {
 margin-top: 100px;
 background-color: darkred;
+color: white;
+}
+
+.totalrodape {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px;
+}
+
+.centrorodape {
+width: 33%;
+}
+
+.enderecorodape {
+width: 33%;
+}
+
+.creditosrodape {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-size: 12px;
 }
