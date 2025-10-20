@@ -47,10 +47,9 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 header audio {
-position: fixed;
+position: static;
 top: 59%;
-left: 50%;
-transform: translateX(-50%);
+display: block;
 }
 
 /* classe para o nome da padaria ficar alinhado */
