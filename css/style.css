@@ -8,6 +8,7 @@
     src: url('./fonts/njnaruto.ttf') format('truetype');
 }
 
+/* fundo e fontes principais do corpo */ 
 body {
 margin: 0;
 padding: 0;    
@@ -16,72 +17,126 @@ background-color: #fde5a4;
 background-image: url(imagens2/pergaminho.webp);
 }
 
-
+/* modificações no cabeçalho */
 header {
 width: 100%;
-padding: 0;
+height: 180px;
+padding: 150px 0;
 display: flex;
 justify-content: center;
-background-color: #fde5a4;
-background-image: url(imagens2/pergaminho.webp);
-}
-
-.cabecalhoimovel {
-position: sticky;
-top: 0;    
-}
-
-.logocentralizada {
-display: block;
-flex-direction: column;
 align-items: center;
-width: 100%;
-height: auto;
+background-color: #fde5a4;
+background-image: url(imagens2/fundodourado.jfif);
+background-size: cover;
+background-position: center;
 }
-
 
 header img {
-display: block;   
-width: 100%;
-height: auto;
+width: auto;
+max-height: 300px;
 }
 
+/* frase que fica em baixo do nome da padaria */
+header p {
+position: absolute;
+top: 65%;
+text-align: center;
+font-size: 16px;
+letter-spacing: 4px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+/* classe para o nome da padaria ficar alinhado */
 .nomepadaria {
 position: absolute;
 left: 50%;
 transform: translateX(-50%); 
-top: 50%;
+top: 40%;
 transform: translate(-50%, -50%);
 text-align: center;
-font-size: 28px;
+font-size: 18px;
 font-family: 'njnaruto';
 letter-spacing: 4px;
 }
 
+/* modificações na barra de navegação */
+nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+z-index: 1000;
+}
+
 nav ul {
-position: absolute;
 list-style: none;
 margin: 0;
 padding: 0;
 display: flex;
-gap: 20px;
-left: 50%;
-transform: translateX(-50%); 
-top: 87%;
-transform: translate(-50%, -50%);
+gap: 0;
+}
+
+nav li{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: darkred;
+height: 65px;
+width: 350px;
+}
+
+nav img {
+width: 280px;
+height: auto;
+}
+
+/* modificações na parte principal do site */
+main {
+margin-top: 70px;    
+padding-left: 22px;
+}
+
+table, th, td {
+border: 1px solid;
+border-collapse: collapse;
+padding: 15px;
+margin-bottom: 103px;
 text-align: center;
 }
 
-a {
-color: rgb(255, 255, 255); 
-text-decoration: none;
+table {
+width: 65%;
 }
 
-a:hover {
-color: rgb(46, 138, 34);
+th {
+height: 40px;
+background-image: url(imagens2/tabelas/tabelasfundotr.jpg);
+color: rgb(255, 150, 150);
+text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+letter-spacing: 2px;
 }
 
+td {
+height: 40px;
+background-image: url(imagens2/tabelas/fundotabelatd.jpg);
+color: rgb(0, 0, 0);
+text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+letter-spacing: 2px;
+}
 
-main {
-margin-top: 100px;    
+tr:hover{background-color: rgb(255, 170, 72);}
+
+fieldset {
+background-image: url(imagens2/campos/img4.jpg);    
+background-color: rgb(255, 184, 134);
+}
+
+footer {
+margin-top: 100px;
+background-color: darkred;
 }
