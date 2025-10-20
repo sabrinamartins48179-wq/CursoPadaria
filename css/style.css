@@ -47,7 +47,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 header audio {
-position: static;
+position: absolute;
 top: 59%;
 display: block;
 }
