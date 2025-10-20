@@ -46,6 +46,12 @@ letter-spacing: 4px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
 
+header audio {
+position: absolute;
+top: 25%;
+text-align: center;
+}
+
 /* classe para o nome da padaria ficar alinhado */
 .nomepadaria {
 position: absolute;
