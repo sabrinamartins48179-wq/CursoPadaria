@@ -132,7 +132,8 @@ color:  #bf2626;
 letter-spacing: 2px;
 }
 
-td:hover{background-color: rgb(255, 170, 72);}
+td:hover{background-color: rgb(255, 170, 72);
+}
 
 .videotexto {
 text-align: left;    
@@ -141,7 +142,7 @@ padding-right: 670px;
 
 fieldset {
 background-image: url(imagens2/campos/img4.jpg);    
-background-color: rgb(253, 245, 230));
+background-color: rgb(253, 245, 230);
 }
 
 footer {
