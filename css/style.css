@@ -114,6 +114,8 @@ text-align: center;
 
 table {
 width: 65%;
+border-radius: 100px ;
+border: solid 5px black;
 }
 
 th {
