@@ -114,6 +114,7 @@ text-align: center;
 
 table {
 width: 65%;
+/* tentativa de arredondar a tabela */
 border-radius: 100px ;
 border: solid 5px black;
 }
