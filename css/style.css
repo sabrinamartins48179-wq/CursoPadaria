@@ -13,8 +13,7 @@ body {
 margin: 0;
 padding: 0;    
 font-family: 'ramenichikaru', sans-serif;
-background-color: #fde5a4;
-background-image: url(imagens2/pergaminho.webp);
+background-color: rgb(253, 245, 230);
 }
 
 /* modificações no cabeçalho */
@@ -44,6 +43,11 @@ text-align: center;
 font-size: 16px;
 letter-spacing: 4px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+header audio {
+position: absolute;
+top: 59%;
 }
 
 /* classe para o nome da padaria ficar alinhado */
@@ -110,6 +114,9 @@ text-align: center;
 
 table {
 width: 65%;
+/* tentativa de arredondar a tabela */
+border-radius: 100px ;
+border: solid 5px black;
 }
 
 th {
@@ -121,14 +128,16 @@ letter-spacing: 2px;
 padding: 15px;
 }
 
+/* parte interna da tabela cardapio*/
 td {
 height: 40px;
-background-color: #f2b138;
-color:  #bf2626;
+background-color: rgb(255, 253, 245);
+color:  black;
 letter-spacing: 2px;
 }
 
-td:hover{background-color: rgb(255, 170, 72);}
+td:hover{background-color: rgb(255, 170, 72);
+}
 
 .videotexto {
 text-align: left;    
@@ -136,8 +145,7 @@ padding-right: 670px;
 }
 
 fieldset {
-background-image: url(imagens2/campos/img4.jpg);    
-background-color: rgb(255, 184, 134);
+background-color: rgb(253, 245, 230);
 }
 
 footer {
