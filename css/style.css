@@ -86,7 +86,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: darkred;
-height: 65px;
+height: 165px;
 width: 350px;
 }
 
@@ -142,7 +142,7 @@ background-color: rgb(255, 184, 134);
 
 footer {
 margin-top: 100px;
-background-color: darkred;
+background-color: rgb(99, 15, 26);
 color: white;
 }
 
